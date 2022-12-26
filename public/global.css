@@ -1,5 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600;700&display=swap');
 
+:root{
+    --bkcolor: #535353;
+    --bkcontraste: #232323;
+    --coloraccesorios: #0666b9;
+    --colorletra: #ffffff;
+}
+
 *{
     font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--bkcolor);
+    color: var(--colorletra);
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar{
+	width: 5px;
+}
+
+::-webkit-scrollbar-track{
+	background: #232323;
+}
+
+::-webkit-scrollbar-thumb{
+	background: #ffffff;
+    border-radius: 5px;
 }

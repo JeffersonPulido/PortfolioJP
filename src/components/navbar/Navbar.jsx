@@ -1,7 +1,12 @@
 import React from 'react'
+import style from './navbar.module.css'
 
 export const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <>
+        <div className={style.containerNavbar}>
+            BOTONES
+        </div>
+    </>
   )
 }
