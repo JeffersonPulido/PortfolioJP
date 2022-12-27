@@ -1,8 +1,72 @@
-.container{
+.container {
     border: 1px solid red;
     display: flex;
     height: 90vh;
     justify-content: flex-start;
     align-items: center;
     padding: 0% 0% 0% 5%;
+}
+
+.title {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 5vh;
+}
+
+.descripcion {
+    font-size: 4vh;
+}
+
+.btn_neon {
+    display: inline-block;
+    padding: 1.2rem 2.2rem 1.2rem 2.2rem;
+    border-radius: 2px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btn_neon:hover {
+    background-color: transparent;
+    text-decoration: none;
+    background: whitesmoke;
+    box-shadow: 0 0 20px whitesmoke, 0 0 50px whitesmoke, 0 0 90px whitesmoke;
+    transition: 0.5s;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    .title {
+        font-weight: 600;
+        letter-spacing: 2.4px;
+        font-size: 10vh;
+    }
+
+    .descripcion {
+        font-size: 8vh;
+    }
+
+    .btn_neon {
+        display: inline-block;
+        padding: 1.2rem 2.2rem 1.2rem 2.2rem;
+        border-radius: 2px;
+        background-color: #dc3545;
+        color: #ffffff;
+        font-size: 0.875rem;
+        line-height: 0;
+        text-decoration: none;
+        transition: all 0.2s;
+        width: 20%;
+    }
+
 }
