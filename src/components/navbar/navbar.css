@@ -23,6 +23,16 @@
 
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+    .logo{
+        width: 50% !important;
+    }
+    .navbar>.container{
+        flex-wrap: initial !important;
+    }
+}
+
 .logo{
     width: 15%;
 }
