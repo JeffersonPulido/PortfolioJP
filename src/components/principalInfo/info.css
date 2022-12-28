@@ -29,3 +29,35 @@
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.65);
   
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .containerInfo {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, 50%);
+        grid-template-columns: none;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    .avatarIMG{
+        width: 90%;
+    }
+    .descriptionInfo{
+        font-size: 2.5vh;
+    }
+    .titleInfo{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .boxRight{
+        margin: 0% 5%;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+
+}

@@ -1,7 +1,7 @@
 .cbh-phone {
 	position: fixed;
     left: 90%;
-    bottom: 0px;
+    top: 0px;
     visibility: hidden;
     background-color: transparent;
     width: 200px;
@@ -21,7 +21,7 @@
     .cbh-phone {
 		position: fixed;
 		left: 65%;
-		bottom: -60px;
+		top: 5%;
 		visibility: hidden;
 		background-color: transparent;
 		width: 200px;
@@ -42,7 +42,6 @@
 	.cbh-phone {
 		position: fixed;
 		left: 92%;
-		bottom: 45px;
 		visibility: hidden;
 		background-color: transparent;
 		width: 200px;
