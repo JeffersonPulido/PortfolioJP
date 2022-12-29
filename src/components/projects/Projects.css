@@ -1,9 +1,45 @@
 .containerProject{
-    border: 5px solid greenyellow;
+
 }
-.containerTitle > h1{
+.containerTitleProject > h1{
     text-align: center;
     font-weight: 600;
     letter-spacing: 5px;
     text-shadow: 2px 2px 3px rgb(197, 197, 197), 0 0 0px rgb(197, 197, 197), 2px 2px 3px rgb(197, 197, 197);
+}
+.containerInfoProject{
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    width: 100%;
+    gap: 5vh;
+    justify-content: center;
+}
+.containerCard{
+    border: 2px solid var(--coloraccesorios);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.cardTitle, .cardDesc, .cardTech, .cardBtn{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cardTitle > h1{
+    font-size: 5vh;
+    margin: 0;
+    padding: 10% 0% 0% 0%;
+    font-weight: 500;
+}
+.cardDesc > p{
+    margin: 0;
+    padding: 10% 0% 0% 0%;
+    text-align: center;
+}
+.cardThumb > img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid var(--coloraccesorios);
 }
