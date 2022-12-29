@@ -1,4 +1,6 @@
-.containerProject {}
+.containerProject {
+    padding-top: 1px;
+}
 
 .containerTitleProject>h1 {
     text-align: center;
@@ -127,4 +129,38 @@
 .btnGithub:hover {
     border: 1px solid var(--coloraccesorios);
     background: var(--coloraccesorios);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .containerProject{
+        padding-top: 20%;
+    }
+    .containerInfoProject{
+        grid-template-columns: auto;
+        margin: 0% 5% 0% 5%;
+        width: 90%;
+    }
+    .containerCard{
+        max-height: 600px;
+    }
+    .cardTitle > h1{
+        font-size: 30px;
+    }
+    .cardDesc > p {
+        font-size: 20px;
+    }
+    .cardTech > ul > li{
+        font-size: 22px;
+    }
+    .btnDeploy, .btnGithub{
+        font-size: 25px;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .containerCard{
+        max-height: 560px;
+    }
 }
