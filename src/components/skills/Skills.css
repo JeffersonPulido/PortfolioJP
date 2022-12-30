@@ -1,0 +1,221 @@
+.containerStats {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+    grid-template-columns: repeat(2, 45%);
+    padding-bottom: 5%;
+}
+
+.skills {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0px #000000, 10px 10px 5px #1e1e1e;
+    border: 2px solid var(--coloraccesorios);
+}
+
+.skills-title {
+    color: var(--bkcontraste);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    padding: 2vh 0vh 0vh 0vh;
+    font-size: 4vh;
+}
+
+.skills-bar {
+    padding: 0px 30px 25px 30px;
+}
+
+.skills-bar .bar {
+    margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 8px;
+    color: #232323;
+}
+
+.skills-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 550px;
+    background: #c5c5c5;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+    position: absolute;
+    background: var(--coloraccesorios);
+    height: 100%;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    text-transform: uppercase;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress-line .html {
+    width: 80%;
+}
+
+.progress-line .javascript {
+    width: 60%;
+}
+
+.progress-line .php {
+    width: 40%;
+}
+
+.progress-line .react {
+    width: 50%;
+}
+
+.progress-line .py {
+    width: 40%;
+}
+
+.progress-line .db {
+    width: 70%;
+}
+
+.progress-line .comunicacion {
+    width: 100%;
+}
+
+.progress-line .trabajo {
+    width: 95%;
+}
+
+.progress-line .creatividad {
+    width: 70%;
+}
+
+.progress-line .autonomia {
+    width: 80%;
+}
+
+.progress-line .puntualidad {
+    width: 90%;
+}
+
+.progress-line .liderazgo {
+    width: 80%;
+}
+
+.progress-line .html::after {
+    content: "80%";
+}
+
+.progress-line .javascript::after {
+    content: "60%";
+}
+
+.progress-line .php::after {
+    content: "40%";
+}
+
+.progress-line .react::after {
+    content: "50%";
+}
+
+.progress-line .py::after {
+    content: "40%";
+}
+
+.progress-line .db::after {
+    content: "70%";
+}
+
+.progress-line .comunicacion::after {
+    content: "100%";
+}
+
+.progress-line .trabajo::after {
+    content: "95%";
+}
+
+.progress-line .creatividad::after {
+    content: "70%";
+}
+
+.progress-line .autonomia::after {
+    content: "80%";
+}
+
+.progress-line .puntualidad::after {
+    content: "90%";
+}
+
+.progress-line .liderazgo::after {
+    content: "80%";
+}
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    right: 0;
+    top: -14px;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-style: #f0f0f0;
+    border-top-color: #232323;
+}
+
+.bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: #f0f0f0;
+    font-size: 12px;
+    font-weight: 700;
+    background: #232323;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+
+
+/* ////........Media Query........//// */
+
+@media (max-width: 700px) {
+    .containerStats {
+        grid-template-columns: none;
+        display: block;
+        padding-left: 3vh;
+        padding-right: 3vh;
+    }
+
+    .skills {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    .skills-bar .bar .progress-line {
+        width: 100%;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .skills-bar .bar .progress-line {
+        width: 100%;
+    }
+}

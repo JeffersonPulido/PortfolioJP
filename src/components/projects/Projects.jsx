@@ -39,8 +39,8 @@ export const Projects = () => {
                   </ul>
                 </div>
                 <div className='cardBtn'>
-                  <a href={project.deploy} className='btnDeploy'><i class="fa-solid fa-globe"></i> Preview</a>
-                  <a href={project.github} className='btnGithub'><i class="fa-brands fa-github"></i> Source</a>
+                  <a href={project.deploy} className='btnDeploy'><i className="fa-solid fa-globe"></i> Preview</a>
+                  <a href={project.github} className='btnGithub'><i className="fa-brands fa-github"></i> Source</a>
                 </div>
               </div>
             )

@@ -5,6 +5,7 @@ import { Header } from './components/header/Header'
 import { Info } from './components/principalInfo/Info'
 import { Whatsapp } from './components/whatsapp/Whatsapp'
 import { Projects } from './components/projects/Projects'
+import { Skills } from './components/skills/Skills'
  
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Info/>
     <Projects/>
     <Whatsapp/>
+    <Skills/>
   </React.StrictMode>,
 )
