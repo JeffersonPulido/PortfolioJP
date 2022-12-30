@@ -9,7 +9,7 @@ export const Navbar = () => {
     <>
       <nav className='navbar navbar-expand-lg navbar-light bg-danger sticky-top'>
         <div className='container'>
-          <a className='navbar-brand text-white' href='#'>
+          <a className='navbar-brand text-white' href='#home'>
             <img src={logo} alt="Logo" className='logo d-flex img-fluid' />
           </a>
           <button className='btn btn-danger navbar-toggler border-3 px-2 text-white' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'>
@@ -25,22 +25,22 @@ export const Navbar = () => {
             <div className='offcanvas-body p-lg-0'>
               <ul className='navbar-nav'>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>Home</a>
+                  <a className='nav-link active' aria-current='page' href='#home'>Home</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>About</a>
+                  <a className='nav-link active' aria-current='page' href='#about'>About</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>Projects</a>
+                  <a className='nav-link active' aria-current='page' href='#projects'>Projects</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>Skills</a>
+                  <a className='nav-link active' aria-current='page' href='#skills'>Skills</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>Testimonials</a>
+                  <a className='nav-link active' aria-current='page' href='#testimonials'>Testimonials</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#'>Contact</a>
+                  <a className='nav-link active' aria-current='page' href='#contact'>Contact</a>
                 </li>
               </ul>
             </div>

@@ -8,7 +8,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div className='containerProject'>
+      <div className='containerProject' id='projects'>
         <div className='containerTitleProject'>
           <h1>PROJECTS</h1>
         </div>

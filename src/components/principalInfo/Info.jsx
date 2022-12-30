@@ -5,7 +5,7 @@ import './info.css'
 export const Info = () => {
   return (
     <>
-      <div className='containerInfo'>
+      <div className='containerInfo' id='about'>
         <div className='boxLeft'>
           <img src={avatarCerca} alt="Avatar" className='avatarIMG'/>
         </div>
