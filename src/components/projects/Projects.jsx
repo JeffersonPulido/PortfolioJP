@@ -16,6 +16,9 @@ export const Projects = () => {
           {
             projects.map((project) => (
               <div className='containerCard'>
+                <div className='cardHead'>
+                  <p>{project.type}</p>
+                </div>
                 <div className='cardThumb'>
                   <img src={project.img} alt="" />
                 </div>
@@ -28,16 +31,16 @@ export const Projects = () => {
                 <div className='cardTech'>
                   <ul>
                     <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVA</li>
                     <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVA</li>
+                    <li>HTML</li>
+                    <li>HTML</li>
+                    <li>HTML</li>
+                    <li>HTML</li>
                   </ul>
                 </div>
                 <div className='cardBtn'>
-                  <a href={project.deploy} className='btnDeploy'>Preview</a>
-                  <a href={project.github} className='btnGithub'>Source</a>
+                  <a href={project.deploy} className='btnDeploy'><i class="fa-solid fa-globe"></i> Preview</a>
+                  <a href={project.github} className='btnGithub'><i class="fa-brands fa-github"></i> Source</a>
                 </div>
               </div>
             )

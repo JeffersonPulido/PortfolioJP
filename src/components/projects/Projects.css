@@ -22,13 +22,34 @@
 .containerCard {
     background-color: whitesmoke;
     border: 2px solid var(--coloraccesorios);
-    box-shadow: 8px 8px 0px 0px #303030, 0 0 0px #000000, 10px 10px 5px #1e1e1e;
+    box-shadow: 0 0 0px #000000, 10px 10px 5px #1e1e1e;
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
     min-height: none;
     max-height: none;
+    transition: 0.5s all ease-in-out;
+}
+
+.containerCard:hover{
+    
+    box-shadow: 12px 8px 20px #000000, 2px 2px 9px 1px #1e1e1e;
+}
+
+.cardHead {
+    width: 100%;
+    background: var(--coloraccesorios);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cardHead>p {
+    padding: 0;
+    margin: 0;
 }
 
 .cardTitle,
@@ -40,7 +61,7 @@
     color: var(--bkcontraste);
 }
 
-.cardTitle{
+.cardTitle {
     width: 100%;
     display: flex;
     text-align: center;
@@ -57,6 +78,9 @@
     font-weight: 500;
 }
 
+.cardDesc{
+}
+
 .cardDesc>p {
     margin: 0;
     padding: 5% 0% 5% 0%;
@@ -65,7 +89,7 @@
 
 .cardThumb>img {
     width: 100%;
-    border-radius: 10px 10px 0px 0px;
+    /* border-radius: 10px 10px 0px 0px; */
     border-bottom: 2px solid var(--coloraccesorios);
 }
 
@@ -106,7 +130,7 @@
     text-decoration: none;
     background: var(--coloraccesorios);
     color: var(--colorletra);
-    padding: 5% 10%;
+    padding: 5% 5%;
     border-radius: 2px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -130,7 +154,7 @@
     border: 1px solid var(--coloraccesorios);
     background: transparent;
     color: var(--bkcontraste);
-    padding: 5% 10%;
+    padding: 5% 5%;
     border-radius: 2px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -151,38 +175,46 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
-    .containerProject{
+    .containerProject {
         padding-top: 20%;
         padding-bottom: 10%;
     }
-    .containerInfoProject{
+
+    .containerInfoProject {
         grid-template-columns: auto;
         margin: 0% 5% 0% 5%;
         width: 90%;
     }
-    .containerCard{
+
+    .containerCard {
         max-height: none;
     }
-    .cardTitle > h1{
+
+    .cardTitle>h1 {
         font-size: 30px;
     }
-    .cardDesc > p {
+
+    .cardDesc>p {
         font-size: 20px;
     }
-    .cardTech > ul > li{
+
+    .cardTech>ul>li {
         font-size: 22px;
     }
-    .btnDeploy, .btnGithub{
+
+    .btnDeploy,
+    .btnGithub {
         font-size: 25px;
     }
 }
 
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
-    .containerCard{
+    .containerCard {
         max-height: none;
     }
-    .cardTitle{
+
+    .cardTitle {
         padding-left: 5%;
         padding-right: 5%;
     }
