@@ -41,6 +41,11 @@
     outline: none;
 }
 
+.quotes-slide:hover {
+    background-color: #f5f5f5;
+    box-shadow: 1px 0px 10px 5px #ffffff;
+}
+
 blockquote {
     margin: 0;
 }
@@ -64,12 +69,14 @@ cite::before {
 /* MOBILE */
 @media (max-width: 768px) {
     .quotes{
-        display: block;
+        display: grid;
         padding: 2rem 4rem;
+        gap: 20px;
     }
 
     .quotes-slide {
         width: 100%;
+        padding: 1.5rem;
     }
 }
 
