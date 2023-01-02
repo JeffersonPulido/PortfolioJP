@@ -6,6 +6,8 @@ import { Info } from './components/principalInfo/Info'
 import { Whatsapp } from './components/whatsapp/Whatsapp'
 import { Projects } from './components/projects/Projects'
 import { Skills } from './components/skills/Skills'
+import { Testimonials } from './components/testimonials/Testimonials'
+import { Contact } from './components/contact/Contact'
 import { Footer } from './components/footer/Footer'
  
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,6 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Projects/>
     <Whatsapp/>
     <Skills/>
+    <Testimonials/>
+    <Contact/>
     <Footer/>
   </React.StrictMode>,
 )

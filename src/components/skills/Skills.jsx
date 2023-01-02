@@ -9,77 +9,77 @@ export const Skills = () => {
                     <h1>SKILLS</h1>
                 </div>
                 <div className='containerStats'>
-                    <div class="skills">
-                        <div class="skills-title">TECHNICAL </div>
-                        <div class="skills-bar">
-                            <div class="bar">
-                                <div class="info">
+                    <div className="skills">
+                        <div className="skills-title">TECHNICAL </div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
                                     <span>HTML - CSS</span>
                                 </div>
-                                <div class="progress-line"><span class="html"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="html"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>JAVASCRIPT</span>
                                 </div>
-                                <div class="progress-line"><span class="javascript"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="javascript"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>PHP</span>
                                 </div>
-                                <div class="progress-line"><span class="php"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="php"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>REACTJS</span>
                                 </div>
-                                <div class="progress-line"><span class="react"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="react"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>PYTHON</span>
                                 </div>
-                                <div class="progress-line"><span class="py"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="py"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>SQL</span>
                                 </div>
-                                <div class="progress-line"><span class="db"></span></div>
-                                <div class="bar"></div>
+                                <div className="progress-line"><span className="db"></span></div>
+                                <div className="bar"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="skills">
-                        <div class="skills-title">PROFESSIONAL</div>
-                        <div class="skills-bar">
-                            <div class="bar">
-                                <div class="info">
+                    <div className="skills">
+                        <div className="skills-title">PROFESSIONAL</div>
+                        <div className="skills-bar">
+                            <div className="bar">
+                                <div className="info">
                                     <span>Comunicación</span>
                                 </div>
-                                <div class="progress-line"><span class="comunicacion"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="comunicacion"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>Trabajo en Equipo</span>
                                 </div>
-                                <div class="progress-line"><span class="trabajo"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="trabajo"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>Creatividad</span>
                                 </div>
-                                <div class="progress-line"><span class="creatividad"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="creatividad"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>Autonomia</span>
                                 </div>
-                                <div class="progress-line"><span class="autonomia"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="autonomia"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>Puntualidad</span>
                                 </div>
-                                <div class="progress-line"><span class="puntualidad"></span></div>
-                                <div class="bar"></div>
-                                <div class="info">
+                                <div className="progress-line"><span className="puntualidad"></span></div>
+                                <div className="bar"></div>
+                                <div className="info">
                                     <span>Liderazgo</span>
                                 </div>
-                                <div class="progress-line"><span class="liderazgo"></span></div>
-                                <div class="bar"></div>
+                                <div className="progress-line"><span className="liderazgo"></span></div>
+                                <div className="bar"></div>
                             </div>
                         </div>
                     </div>
