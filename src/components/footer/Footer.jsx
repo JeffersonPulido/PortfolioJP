@@ -4,10 +4,11 @@ import './footer.css'
 
 export const Footer = () => {
 
-    const [dateFooter, setDateFooter] = useState(2023)
+    const [dateFooter, setDateFooter] = useState(2022)
     const getDateFooter = () => {
         const year = document.getElementById("year");
-        setDateFooter = year.textContent = new Date().getFullYear();
+        const yearCopy = year.textContent = new Date().getFullYear();
+        setDateFooter(yearCopy)
     }
 
     window.addEventListener("load", (event) => {
