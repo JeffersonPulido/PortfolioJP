@@ -1,7 +1,7 @@
 .containerContact {
     padding-top: 2%;
     padding-bottom: 5%;
-    background-color: var(--coloraccesorios);
+    background-color: #9b242f;
 }
 
 .containerTitleContact>h1 {
@@ -54,7 +54,7 @@ input {
     color: #232323;
 }
 
-.contact-sec .contact-ul li{
+.contact-sec .contact-ul li {
     color: #ffffff;
 }
 
@@ -86,7 +86,9 @@ input {
     transition: .2s ease-in-out;
 }
 
-.contact-detail span .whatsapp:hover, .contact-detail span .git:hover, .contact-detail span .linkedin:hover {
+.contact-detail span .whatsapp:hover,
+.contact-detail span .git:hover,
+.contact-detail span .linkedin:hover {
     color: #fff;
     border: 3px solid #fff;
 }
@@ -115,8 +117,13 @@ form.contFrm {
 }
 
 .inptFld:focus {
-    outline-offset: -4px;
-    outline: 1px solid #f93;
+    outline: 2px solid #535353;
+    box-shadow: 0px 0px 20px 0px rgb(197 197 197), 0px 0px 14px 4px rgb(197 197 197), 0px 0px 0px rgb(197 197 197);
+}
+
+.datosPersonales{
+    text-align: justify;
+    font-weight: 700;
 }
 
 .contFrm textarea {
@@ -137,6 +144,7 @@ form.contFrm {
     width: 100%;
     max-width: 200px;
     font-weight: 600;
+    text-align: center;
 }
 
 /* Responcive css Start */
