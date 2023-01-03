@@ -19,12 +19,9 @@ export const Testimonials = () => {
                                 </span>
 
                                 <div className="content">
-                                    <p>Must go faster. Hey, take a look at the earthlings. Goodbye! I was part of something special. Jaguar
-                                        shark! So tell me - does it really exist? They're using our own satellites against us. And the clock
-                                        is ticking. Must go faster... go, go, go, go, go!
-                                    </p>
+                                    <p>Conozco tu trabajo y sé que manejas código limpio e indexado, tiene buena perspectiva de solución de problemas y una lógica increíble, ademas de usar buenas practicas. </p>
                                 </div>
-                                <cite>Jeff Goldblum</cite>
+                                <cite>Yeison Marquez - Developer Sr</cite>
                             </blockquote>
                         </div>
                         <div className="quotes-slide slideshow__slide--active" data-slider-slide-index="1" aria-hidden="false" tabIndex="-1">
@@ -37,13 +34,9 @@ export const Testimonials = () => {
                                 </span>
 
                                 <div className="content">
-                                    <p>I was part of something special. God help us, we're in the hands of engineers. Jaguar shark! So tell
-                                        me - does it really exist? Checkmate... We gotta burn the rain forest, dump toxic waste, pollute the
-                                        air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it
-                                        anymore!
-                                    </p>
+                                    <p>Es una persona autónoma y proactiva, Soluciona inconvenientes y mejora la efectividad de procesos para aumentar la calidad de un sistema compuesto. </p>
                                 </div>
-                                <cite>Jeff Goldblum</cite>
+                                <cite>Cristian Sanchez - Arquitecto</cite>
                             </blockquote>
                         </div>
                         <div className="quotes-slide slideshow__slide--active" data-slider-slide-index="2" aria-hidden="false" tabIndex="-1">
@@ -54,11 +47,9 @@ export const Testimonials = () => {
                                 </svg>
                                 </span>
                                 <div className="content">
-                                    <p>Must go faster... go, go, go, go, go! Yes, Yes, without the oops! Life finds a way. My dad once told
-                                        me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little
-                                        bastard! Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
+                                    <p>Es una persona responsable y autónomo, apto para afrontar los retos más altos y encontrar la mejor solución, además está dispuesto a aprender y dejarse enseñar.</p>
                                 </div>
-                                <cite>Jeff Goldblum</cite>
+                                <cite>Fernando Bermudez - Docende SENA</cite>
                             </blockquote>
                         </div>
                     </div>

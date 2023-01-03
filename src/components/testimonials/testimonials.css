@@ -1,6 +1,5 @@
 .containerTestimonials {
     padding-top: 1px;
-    padding-bottom: 5%;
 }
 
 .containerTitleTestimonials>h1 {
@@ -57,6 +56,7 @@ cite {
     font-style: normal;
     font-size: .9rem;
     color: var(--coloraccesorios);
+    font-weight: 600;
 }
 
 cite::before {
