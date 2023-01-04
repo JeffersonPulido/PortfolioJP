@@ -30,12 +30,7 @@ export const Projects = () => {
                 </div>
                 <div className='cardTech'>
                   <ul>
-                    <li>HTML</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
-                    <li>HTML</li>
+                    <li>{project.tags}</li>
                   </ul>
                 </div>
                 <div className='cardBtn'>
