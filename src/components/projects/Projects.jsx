@@ -15,7 +15,7 @@ export const Projects = () => {
         <div className='containerInfoProject'>
           {
             projects.map((project) => (
-              <div className='containerCard'>
+              <div className='containerCard' key={project.id}>
                 <div className='cardHead'>
                   <p>{project.type}</p>
                 </div>
@@ -30,7 +30,9 @@ export const Projects = () => {
                 </div>
                 <div className='cardTech'>
                   <ul>
-                    <li>{project.tags}</li>
+                    {project.tags.map((tech) => (
+                      <li>{tech}</li>
+                    ))}
                   </ul>
                 </div>
                 <div className='cardBtn'>

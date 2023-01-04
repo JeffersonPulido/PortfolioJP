@@ -101,7 +101,7 @@
 .cardTech>ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(3, 30%);
     width: 100%;
     padding: 0;
     gap: 5px;
