@@ -88,6 +88,10 @@ p {
         gap: 1%;
         padding: 0% 10%;
     }
+    .containerServices {
+        padding-top: 1px;
+        padding-bottom: 30%;
+    }
 }
 
 /* DESKTOP BIG*/
