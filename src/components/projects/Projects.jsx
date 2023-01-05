@@ -31,12 +31,12 @@ export const Projects = () => {
                 <div className='cardTech'>
                   <ul>
                     {project.tags.map((tech) => (
-                      <li>{tech}</li>
+                      <li key={tech+"TAGS"}>{tech}</li>
                     ))}
                   </ul>
                 </div>
                 <div className='cardBtn'>
-                  <a href={project.deploy} className='btnDeploy'><i className="fa-solid fa-globe"></i> Preview</a>
+                  <a href={project.deploy} className={project.classBtnDeploy} ><i className='fa-solid fa-globe'></i> {project.btnDeploy}</a>
                   <a href={project.github} className='btnGithub'><i className="fa-brands fa-github"></i> Source</a>
                 </div>
               </div>
