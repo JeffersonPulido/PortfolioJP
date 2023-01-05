@@ -6,6 +6,13 @@ export const Projects = () => {
 
   const [projects, setProjects] = useState(Data)
 
+  const [toggle, setToggle] = useState(false)
+
+  const handleClickMenu = () => {
+    setToggle(!toggle)
+  };
+
+
   return (
     <>
       <div className='containerProject' id='projects'>
@@ -36,7 +43,7 @@ export const Projects = () => {
                   </ul>
                 </div>
                 <div className='cardBtn'>
-                  <a href={project.deploy} className={project.classBtnDeploy} ><i className='fa-solid fa-globe'></i> {project.btnDeploy}</a>
+                  <a href={project.deploy} className={project.btnDeploy == "Local" ? "disabled" : "btnDeploy"} onLoad={handleClickMenu}><i className='fa-solid fa-globe'></i>{project.btnDeploy}</a>
                   <a href={project.github} className='btnGithub'><i className="fa-brands fa-github"></i> Source</a>
                 </div>
               </div>

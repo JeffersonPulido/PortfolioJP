@@ -9,7 +9,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/TiendaGenericaJAVA",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "2",
@@ -21,7 +20,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/TiendaGenericaNodeJS",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "3",
@@ -33,7 +31,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/GreenGround",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "4",
@@ -45,7 +42,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/InventarioTechAGSM",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "5",
@@ -57,7 +53,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/LaikaPage",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "6",
@@ -69,7 +64,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/SuperHeroesSearch",
     deploy: "https://searchheroes.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "7",
@@ -81,7 +75,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/AGMS_Landing_V2",
     deploy: "https://sanmiguelsas.com/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "8",
@@ -93,7 +86,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/A-R-SAS",
     deploy: "#",
     btnDeploy: "Local",
-    classBtnDeploy: "disabled"
   },
   {
     id: "9",
@@ -105,7 +97,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/AGMS_Landing_V2",
     deploy: "https://sanmiguelsas.com/vcardF/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "10",
@@ -117,7 +108,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/CV",
     deploy: "https://jeffersonpulido-cv.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "11",
@@ -129,7 +119,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/MoviesSearch",
     deploy: "https://searchfilmsmovies.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "12",
@@ -141,7 +130,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/RecetasSearch",
     deploy: "https://searchrecetas.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "13",
@@ -153,7 +141,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/replicadeezer",
     deploy: "https://replicadeezer.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "14",
@@ -165,7 +152,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/CalculadoraJS",
     deploy: "https://calculadorajsjp.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "15",
@@ -177,7 +163,6 @@ export const Data = [
     github: "https://github.com/JeffersonPulido/TetrisGame",
     deploy: "https://tetrisgameapp.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   },
   {
     id: "16",
@@ -189,6 +174,5 @@ export const Data = [
     github: "https://github.com/programateacademy/Legacy-Red-social-Progr-mate",
     deploy: "https://coderyapp.netlify.app/",
     btnDeploy: "Web",
-    classBtnDeploy: "btnDeploy"
   }
 ]
