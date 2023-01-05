@@ -7,8 +7,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/Lr42mxs/Caratula1.webp",
     github: "https://github.com/JeffersonPulido/TiendaGenericaJAVA",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "2",
@@ -18,8 +17,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/yYYyyS6/Caratula2.webp",
     github: "https://github.com/JeffersonPulido/TiendaGenericaNodeJS",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "3",
@@ -29,8 +27,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/QkT2Qz9/Caratula3.webp",
     github: "https://github.com/JeffersonPulido/GreenGround",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "4",
@@ -40,8 +37,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/pb3kmzV/Caratula4.webp",
     github: "https://github.com/JeffersonPulido/InventarioTechAGSM",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "5",
@@ -51,8 +47,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/FBs284W/Caratula5.webp",
     github: "https://github.com/JeffersonPulido/LaikaPage",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "6",
@@ -62,8 +57,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/Syk81qK/Caratula6.webp",
     github: "https://github.com/JeffersonPulido/SuperHeroesSearch",
-    deploy: "https://searchheroes.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://searchheroes.netlify.app/"
   },
   {
     id: "7",
@@ -73,8 +67,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/2S7CLNr/Caratula7.webp",
     github: "https://github.com/JeffersonPulido/AGMS_Landing_V2",
-    deploy: "https://sanmiguelsas.com/",
-    btnDeploy: "Web",
+    deploy: "https://sanmiguelsas.com/"
   },
   {
     id: "8",
@@ -84,8 +77,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/xjTkvQ2/Caratula8.webp",
     github: "https://github.com/JeffersonPulido/A-R-SAS",
-    deploy: "#",
-    btnDeploy: "Local",
+    deploy: "#"
   },
   {
     id: "9",
@@ -95,8 +87,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/xMCwCHC/Caratula9.webp",
     github: "https://github.com/JeffersonPulido/AGMS_Landing_V2",
-    deploy: "https://sanmiguelsas.com/vcardF/",
-    btnDeploy: "Web",
+    deploy: "https://sanmiguelsas.com/vcardF/"
   },
   {
     id: "10",
@@ -106,8 +97,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/WDN3Vdw/Caratula10.webp",
     github: "https://github.com/JeffersonPulido/CV",
-    deploy: "https://jeffersonpulido-cv.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://jeffersonpulido-cv.netlify.app/"
   },
   {
     id: "11",
@@ -117,8 +107,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/LZcS3bt/Caratula11.webp",
     github: "https://github.com/JeffersonPulido/MoviesSearch",
-    deploy: "https://searchfilmsmovies.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://searchfilmsmovies.netlify.app/"
   },
   {
     id: "12",
@@ -128,8 +117,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/sbzxYzC/Caratula12.webp",
     github: "https://github.com/JeffersonPulido/RecetasSearch",
-    deploy: "https://searchrecetas.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://searchrecetas.netlify.app/"
   },
   {
     id: "13",
@@ -139,8 +127,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/HBsGQH3/Caratula13.webp",
     github: "https://github.com/JeffersonPulido/replicadeezer",
-    deploy: "https://replicadeezer.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://replicadeezer.netlify.app/"
   },
   {
     id: "14",
@@ -150,8 +137,7 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/xSVNJyP/Caratula14.webp",
     github: "https://github.com/JeffersonPulido/CalculadoraJS",
-    deploy: "https://calculadorajsjp.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://calculadorajsjp.netlify.app/"
   },
   {
     id: "15",
@@ -161,8 +147,7 @@ export const Data = [
     type: "FullStack",
     img: "https://i.ibb.co/t3D5s0n/Caratula15.webp",
     github: "https://github.com/JeffersonPulido/TetrisGame",
-    deploy: "https://tetrisgameapp.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://tetrisgameapp.netlify.app/"
   },
   {
     id: "16",
@@ -172,7 +157,6 @@ export const Data = [
     type: "FrontEnd",
     img: "https://i.ibb.co/T0RzG6S/Caratula16.webp",
     github: "https://github.com/programateacademy/Legacy-Red-social-Progr-mate",
-    deploy: "https://coderyapp.netlify.app/",
-    btnDeploy: "Web",
+    deploy: "https://coderyapp.netlify.app/"
   }
 ]
