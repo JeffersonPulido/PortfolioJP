@@ -5,7 +5,7 @@ import { Header } from './components/header/Header'
 import { Info } from './components/principalInfo/Info'
 import { Whatsapp } from './components/whatsapp/Whatsapp'
 import { Projects } from './components/projects/Projects'
-import { Skills } from './components/skills/Skills'
+import { Services } from './components/services/Services'
 import { Testimonials } from './components/testimonials/Testimonials'
 import { Contact } from './components/contact/Contact'
 import { Footer } from './components/footer/Footer'
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Info/>
     <Projects/>
     <Whatsapp/>
-    <Skills/>
+    <Services/>
     <Testimonials/>
     <Contact/>
     <Footer/>
