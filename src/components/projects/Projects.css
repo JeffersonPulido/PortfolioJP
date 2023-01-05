@@ -101,7 +101,7 @@
 .cardTech>ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(3, 33%);
     width: 100%;
     padding: 0;
     gap: 5px;
@@ -217,5 +217,8 @@
     .cardTitle {
         padding-left: 5%;
         padding-right: 5%;
+    }
+    .cardTitle>h1{
+        font-size: 3vh;
     }
 }

@@ -9,7 +9,8 @@ export const Header = () => {
         <div className={style.containerName}>
           <h1 className={style.title}>Hi, I'm Jefferson Pulido</h1>
           <h2 className={style.descripcion}>Developer Web FrontEnd</h2>
-          <a className={style.btn_neon} href="https://jeffersonpulido-cv.netlify.app/" target="_blank">Ver CV</a>
+          <a className={style.btnEffect} href="https://jeffersonpulido-cv.netlify.app/" target="_blank"><span>Ver CV</span></a>
+          {/* <a className={style.btn_neon} href="https://jeffersonpulido-cv.netlify.app/" target="_blank">Ver CV</a> */}
         </div>
       </div>
     </>
