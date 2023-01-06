@@ -35,14 +35,14 @@ section {
     text-align: center;
 }
 
-h3 {
+.h3serv {
     font-size: 20px;
     font-weight: 600;
     color: #1f194c;
     margin: 1em 0;
 }
 
-p {
+.pserv {
     color: #575a7b;
     font-size: 15px;
     line-height: 1.6;

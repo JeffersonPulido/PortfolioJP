@@ -15,13 +15,13 @@ export const Services = () => {
                 <section>
                     {
                         service.map((serv) => (
-                            <div class="cardServ">
-                                <div class="card">
-                                    <div class="icon-wrapper">
-                                        <i class={serv.icon}></i>
+                            <div className="cardServ" key={serv.id}>
+                                <div className="card">
+                                    <div className="icon-wrapper">
+                                        <i className={serv.icon}></i>
                                     </div>
-                                    <h3>{serv.title}</h3>
-                                    <p>{serv.description}</p>
+                                    <h3 className="h3serv">{serv.title}</h3>
+                                    <p className="pserv">{serv.description}</p>
                                 </div>
                             </div>
                         ))
