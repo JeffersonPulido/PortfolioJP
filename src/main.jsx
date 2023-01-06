@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Header/>
     <Navbar/>
     <Info/>
+    <Services/>
     <Projects/>
     <Whatsapp/>
-    <Services/>
     <Testimonials/>
     <Contact/>
     <Footer/>

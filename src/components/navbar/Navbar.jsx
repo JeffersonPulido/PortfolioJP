@@ -31,10 +31,10 @@ export const Navbar = () => {
                   <a className='nav-link active' aria-current='page' href='#about'>About</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#projects'>Projects</a>
+                  <a className='nav-link active' aria-current='page' href='#services'>Services</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#services'>Services</a>
+                  <a className='nav-link active' aria-current='page' href='#projects'>Projects</a>
                 </li>
                 <li className='nav-item'>
                   <a className='nav-link active' aria-current='page' href='#testimonials'>Testimonials</a>
