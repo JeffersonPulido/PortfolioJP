@@ -193,7 +193,7 @@
 }
 
 /* MOBILE */
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .containerProject {
         padding-top: 20%;
         padding-bottom: 10%;
@@ -240,5 +240,22 @@
 
     .cardTitle>h1 {
         font-size: 3vh;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .containerInfoProject{
+        grid-template-columns: repeat(2, 40%);
+    }
+    .containerTitleProject>h1{
+        padding-bottom: 4vh;
+        padding-top: 4vh;
+    }
+    .containerInfo{
+        grid-template-columns: none;
+    }
+    .cardTitle>h1{
+        font-size: 2.5vh;
     }
 }

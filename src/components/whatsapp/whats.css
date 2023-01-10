@@ -37,6 +37,14 @@
 	}
 }
 
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+	.cbh-phone{
+		top: 5%;
+		left: 80%;
+	}
+}
+
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
 	.cbh-phone {

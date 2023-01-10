@@ -44,3 +44,13 @@
 .navbar{
     padding: 0 !important;
 }
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .navbar > .container{
+        flex-wrap: initial;
+    }
+    .logo{
+        width: 30%;
+    }
+}

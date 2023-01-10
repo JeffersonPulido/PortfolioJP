@@ -83,18 +83,27 @@ section {
 
 /* MOBILE */
 @media (max-width: 768px) {
-    section{
+    section {
         grid-template-columns: none;
         gap: 1%;
         padding: 0% 10%;
     }
+
     .containerServices {
         padding-top: 15%;
-        padding-bottom: 15%;    
+        padding-bottom: 15%;
     }
 }
 
 /* DESKTOP BIG*/
-@media (min-width: 1800px) {
+@media (min-width: 1800px) {}
 
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    section {
+        grid-template-columns: repeat(3, 33%);
+        gap: 2%;
+        padding: 0% 5%;
+        justify-content: center;
+    }
 }

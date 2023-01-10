@@ -116,3 +116,23 @@
     box-shadow: -5px 0 0 #ffffff, -5px 0 0 #ffffff;
     transition-delay: 0s, 0.5s, 1s, 1s;
 }
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .title{
+        font-size: 7vh;
+    }
+    .descripcion{
+        font-size: 5vh;
+    }
+    .btnEffect{
+        width: 200px;
+        height: 70px;
+        padding: 20px 30px;
+    }
+}

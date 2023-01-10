@@ -56,4 +56,17 @@
         margin: 0% 5%;
     }
 }
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
 
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .titleInfo{
+        margin-top: 50px;
+    }
+    .descriptionInfo{
+        font-size: 3vh;
+    }
+}
