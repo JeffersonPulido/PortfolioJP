@@ -12,12 +12,12 @@ import { Footer } from '../components/footer/Footer'
 export const PageInit = () => {
   return (
     <>
+        <Whatsapp />
         <Header />
         <Navbar />
         <Info />
         <Services />
         <Projects />
-        <Whatsapp />
         <Testimonials />
         <Contact />
         <Footer />
