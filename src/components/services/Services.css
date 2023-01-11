@@ -25,8 +25,8 @@ section {
     height: 100%;
     padding: 1em 0.5em;
     background: linear-gradient(#ffffff 50%, var(--coloraccesorios) 50%);
-    background-size: 100% 200%;
-    background-position: 0 2.5%;
+    background-size: 100% 250%;
+    background-position: 0% 20%;
     border-radius: 5px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
     cursor: pointer;
@@ -64,7 +64,7 @@ section {
 }
 
 .card:hover {
-    background-position: 0 100%;
+    background-position: 100% 95%;
 }
 
 .card:hover .icon-wrapper {

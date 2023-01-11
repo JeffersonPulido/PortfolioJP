@@ -65,6 +65,7 @@
     align-items: center;
     text-align: center;
     font-weight: 600;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .cardHead>p {
