@@ -193,6 +193,34 @@
     color: var(--colorletra);
 }
 
+.containerButtons{
+    margin: 0% 0% 4% 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.btnFilter{
+    padding: 0.3rem 0.5rem;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: var(--coloraccesorios);
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    transition: .3s ease-in-out;
+    box-shadow: 0px 0px 4px #000000, 0px 0px 20px 2px #1e1e1e;
+}
+
+.btnFilter:hover{
+    background: #a3212d;
+    transition: .3s ease-in-out;
+}
+
 /* MOBILE */
 @media screen and (max-width: 767px) {
     .containerProject {
@@ -226,6 +254,14 @@
     .btnGithub {
         font-size: 25px;
     }
+    .containerButtons{
+        margin: -2% 0% 10% 0%;
+        display: flow-root;
+    }
+    .btnFilter{
+        box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
+        margin: 1%;
+    }
 }
 
 /* DESKTOP BIG*/
@@ -258,5 +294,13 @@
     }
     .cardTitle>h1{
         font-size: 2.5vh;
+    }
+    .containerButtons{
+        margin: -2% 10% 8% 10%;
+        display: flow-root;
+    }
+    .btnFilter{
+        box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
+        margin: 1%;
     }
 }

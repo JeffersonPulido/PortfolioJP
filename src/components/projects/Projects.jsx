@@ -12,6 +12,16 @@ export const Projects = () => {
         <div className='containerTitleProject'>
           <h1>PROJECTS</h1>
         </div>
+        <div className='containerButtons'>
+          <button className='btnFilter'>FullStack</button>
+          <button className='btnFilter'>FrontEnd</button>
+          <button className='btnFilter'>Desplegados</button>
+          <button className='btnFilter'>ReactJS</button>
+          <button className='btnFilter'>JavaScript</button>
+          <button className='btnFilter'>PHP</button>
+          <button className='btnFilter'>NodeJS</button>
+          <button className='btnFilter'>JAVA</button>
+        </div>
         <div className='containerInfoProject'>
           {
             projects.map((project) => (
