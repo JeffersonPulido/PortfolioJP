@@ -10,28 +10,15 @@
 .title {
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 5vh;
+    font-size: 3.5rem;
     text-shadow: 2px 2px 5px whitesmoke, 0 0 0px whitesmoke, 2px 2px 5px whitesmoke;
 }
 
 .descripcion {
-    font-size: 4vh;
+    font-size: 3rem;
     text-shadow: 2px 2px 5px whitesmoke, 0 0 0px whitesmoke, 2px 2px 5px whitesmoke;
 }
 
-/* DESKTOP */
-@media (min-width: 768px) {
-    .title {
-        font-weight: 600;
-        letter-spacing: 2.4px;
-        font-size: 10vh;
-    }
-
-    .descripcion {
-        font-size: 8vh;
-    }
-
-}
 
 .btnEffect {
     cursor: pointer;
@@ -117,22 +104,33 @@
     transition-delay: 0s, 0.5s, 1s, 1s;
 }
 
-/* DESKTOP BIG*/
-@media (min-width: 1800px) {
-
-}
 
 /* TABLET */
 @media screen and (min-width: 767px) and (max-width: 1023px){
     .title{
-        font-size: 7vh;
+        font-size: 5rem;
     }
     .descripcion{
-        font-size: 5vh;
+        font-size: 4rem;
     }
     .btnEffect{
         width: 200px;
         height: 70px;
         padding: 20px 30px;
     }
+}
+
+
+/* DESKTOP */
+@media (min-width: 768px) {
+    .title {
+        font-weight: 600;
+        letter-spacing: 2.4px;
+        font-size: 5rem;
+    }
+
+    .descripcion {
+        font-size: 4rem;
+    }
+
 }
