@@ -18,7 +18,7 @@ export const Navbar = () => {
           <div className='offcanvas offcanvas-start-lg bg-danger' tabIndex='-1' id='offcanvasExample' aria-labelledby='offcanvasExampleLabel'>
             <div className='offcanvas-header d-flex d-lg-none'>
               <h5 className='offcanvas-title text-white' id='offcanvasExampleLabel'>JPulido Dev</h5>
-              <a href='# ' className='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
+              <a href='javascript:void(0)' className='text-reset p-0' data-bs-dismiss='offcanvas' aria-label='close'>
                 <img src={logoClose} alt="Icon Close Navbar" />
               </a>
             </div>
