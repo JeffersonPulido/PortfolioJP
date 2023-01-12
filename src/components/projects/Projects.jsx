@@ -15,7 +15,6 @@ export const Projects = () => {
         <div className='containerButtons'>
           <button className='btnFilter'>FullStack</button>
           <button className='btnFilter'>FrontEnd</button>
-          <button className='btnFilter'>Desplegados</button>
           <button className='btnFilter'>ReactJS</button>
           <button className='btnFilter'>JavaScript</button>
           <button className='btnFilter'>PHP</button>
@@ -27,7 +26,9 @@ export const Projects = () => {
             projects.map((project) => (
               <div className='containerCard' key={project.id}>
                 <div className='cardHead'>
-                  <p>{project.type}</p>
+                  {project.type.map((typeT) => (
+                    <p key={typeT + "TYPE"}>&nbsp;{typeT}</p>
+                  ))}
                 </div>
                 <div className='cardThumb'>
                   <img src={project.img} alt="" />
@@ -41,7 +42,7 @@ export const Projects = () => {
                 <div className='cardTech'>
                   <ul>
                     {project.tags.map((tech) => (
-                      <li key={tech+"TAGS"}>{tech}</li>
+                      <li key={tech + "TAGS"}>{tech}</li>
                     ))}
                   </ul>
                 </div>
