@@ -193,16 +193,27 @@
     color: var(--colorletra);
 }
 
-.containerButtons{
+.containerButtons {
     margin: 0% 0% 4% 0%;
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
     align-items: center;
     gap: 2%;
 }
 
-.btnFilter{
+.btnDev,
+.btnTech {
+    display: inline-block;
+}
+
+.titleBtnFilter {
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin: 0.5rem 0rem;
+}
+
+.btnFilter {
     padding: 0.3rem 0.5rem;
     width: 120px;
     border: none;
@@ -214,9 +225,10 @@
     letter-spacing: 0.6px;
     transition: .3s ease-in-out;
     box-shadow: 0px 0px 4px #000000, 0px 0px 20px 2px #1e1e1e;
+    margin: 5px;
 }
 
-.btnFilter:hover{
+.btnFilter:hover {
     background: #a3212d;
     transition: .3s ease-in-out;
 }
@@ -254,11 +266,13 @@
     .btnGithub {
         font-size: 25px;
     }
-    .containerButtons{
+
+    .containerButtons {
         margin: -2% 0% 10% 0%;
         display: flow-root;
     }
-    .btnFilter{
+
+    .btnFilter {
         box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
         margin: 1%;
     }
@@ -281,25 +295,30 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 767px) and (max-width: 1023px){
-    .containerInfoProject{
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .containerInfoProject {
         grid-template-columns: repeat(2, 40%);
     }
-    .containerTitleProject>h1{
+
+    .containerTitleProject>h1 {
         padding-bottom: 4vh;
         padding-top: 4vh;
     }
-    .containerInfo{
+
+    .containerInfo {
         grid-template-columns: none;
     }
-    .cardTitle>h1{
+
+    .cardTitle>h1 {
         font-size: 2.5vh;
     }
-    .containerButtons{
+
+    .containerButtons {
         margin: -2% 10% 8% 10%;
         display: flow-root;
     }
-    .btnFilter{
+
+    .btnFilter {
         box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
         margin: 1%;
     }

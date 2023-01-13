@@ -6,6 +6,12 @@ export const Projects = () => {
 
   const [projects, setProjects] = useState(Data)
 
+  const menuTypeDev = [...new Set(projects.map((Val) => Val.typeProject))]
+  const menuTypeTech = [...new Set(projects.map((Val) => Val.type))]
+
+  console.log(menuTypeDev)
+  console.log(menuTypeTech)
+
   return (
     <>
       <div className='containerProject' id='projects'>
@@ -13,22 +19,29 @@ export const Projects = () => {
           <h1>PROJECTS</h1>
         </div>
         <div className='containerButtons'>
-          <button className='btnFilter'>FullStack</button>
-          <button className='btnFilter'>FrontEnd</button>
-          <button className='btnFilter'>ReactJS</button>
-          <button className='btnFilter'>JavaScript</button>
-          <button className='btnFilter'>PHP</button>
-          <button className='btnFilter'>NodeJS</button>
-          <button className='btnFilter'>JAVA</button>
+          <div className='btnDev'>
+            <p className='titleBtnFilter'>Tipo Desarrollo</p>
+            {
+              menuTypeDev.map((btnTypeDev) => (
+                <button key={btnTypeDev + "typeProjectFilter"} className='btnFilter'>{btnTypeDev}</button>
+              ))
+            }
+          </div>
+          <div className='btnTech'>
+            <p className='titleBtnFilter'>Tecnologias</p>
+            {
+              menuTypeTech.map((btnTypeTech) => (
+                <button key={btnTypeTech + "typeTechFilter"} className='btnFilter'>{btnTypeTech}</button>
+              ))
+            }
+          </div>
         </div>
         <div className='containerInfoProject'>
           {
             projects.map((project) => (
               <div className='containerCard' key={project.id}>
                 <div className='cardHead'>
-                  {project.type.map((typeT) => (
-                    <p key={typeT + "TYPE"}>&nbsp;{typeT}</p>
-                  ))}
+                  <p key={project.type + "TYPE"}>&nbsp;{project.type}</p>
                 </div>
                 <div className='cardThumb'>
                   <img src={project.img} alt="" />
