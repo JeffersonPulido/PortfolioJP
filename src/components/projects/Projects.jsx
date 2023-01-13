@@ -9,7 +9,7 @@ export const Projects = () => {
   const [dataFilter, setDataFilter] = useState(projects)
   //Quitar repetidos de tipos de proyecto y tecnologias, metiendo el resultado en arrays nuevos
   const menuTypeDev = ['Todos', ...new Set(projects.map((Val) => Val.typeProject))]
-  const menuTypeTech = [...new Set(projects.map((Val) => Val.type))]
+  const menuTypeTech = ['Todos', ...new Set(projects.map((Val) => Val.type))]
   //Funcion de filtrar tipos de proyectos
   const filterTypeProject = (categoryProject) => {
     const newItem = Data.filter((newVal) => {
@@ -18,7 +18,19 @@ export const Projects = () => {
 
     if (categoryProject === 'Todos') {
       setDataFilter(projects);
-    }else{
+    } else {
+      setDataFilter(newItem);
+    }
+  };
+  //Funcion de filtrar tecnologias
+  const filterTechs = (techProject) => {
+    const newItem = Data.filter((newVal) => {
+      return newVal.type === techProject;
+    });
+
+    if (techProject === 'Todos') {
+      setDataFilter(projects);
+    } else {
       setDataFilter(newItem);
     }
   };
@@ -42,7 +54,7 @@ export const Projects = () => {
             <p className='titleBtnFilter'>Tecnologias</p>
             {
               menuTypeTech.map((btnTypeTech) => (
-                <button key={btnTypeTech + "typeTechFilter"} className='btnFilter'>{btnTypeTech}</button>
+                <button key={btnTypeTech + "typeTechFilter"} className='btnFilter' onClick={() => filterTechs(btnTypeTech)}>{btnTypeTech}</button>
               ))
             }
           </div>
