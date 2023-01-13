@@ -3,14 +3,25 @@ import { Data } from '../../data/projects'
 import './Projects.css'
 
 export const Projects = () => {
-
+  //State con DATA Original
   const [projects, setProjects] = useState(Data)
-
-  const menuTypeDev = [...new Set(projects.map((Val) => Val.typeProject))]
+  //State con DATA Filtrada
+  const [dataFilter, setDataFilter] = useState(projects)
+  //Quitar repetidos de tipos de proyecto y tecnologias, metiendo el resultado en arrays nuevos
+  const menuTypeDev = ['Todos', ...new Set(projects.map((Val) => Val.typeProject))]
   const menuTypeTech = [...new Set(projects.map((Val) => Val.type))]
+  //Funcion de filtrar tipos de proyectos
+  const filterTypeProject = (categoryProject) => {
+    const newItem = Data.filter((newVal) => {
+      return newVal.typeProject === categoryProject;
+    });
 
-  console.log(menuTypeDev)
-  console.log(menuTypeTech)
+    if (categoryProject === 'Todos') {
+      setDataFilter(projects);
+    }else{
+      setDataFilter(newItem);
+    }
+  };
 
   return (
     <>
@@ -23,7 +34,7 @@ export const Projects = () => {
             <p className='titleBtnFilter'>Tipo Desarrollo</p>
             {
               menuTypeDev.map((btnTypeDev) => (
-                <button key={btnTypeDev + "typeProjectFilter"} className='btnFilter'>{btnTypeDev}</button>
+                <button key={btnTypeDev + "typeProjectFilter"} className='btnFilter' onClick={() => filterTypeProject(btnTypeDev)}>{btnTypeDev}</button>
               ))
             }
           </div>
@@ -38,10 +49,10 @@ export const Projects = () => {
         </div>
         <div className='containerInfoProject'>
           {
-            projects.map((project) => (
+            dataFilter.map((project) => (
               <div className='containerCard' key={project.id}>
                 <div className='cardHead'>
-                  <p key={project.type + "TYPE"}>&nbsp;{project.type}</p>
+                  <p key={project.type + "TYPE"}>{project.typeProject}&nbsp;-&nbsp;{project.type}</p>
                 </div>
                 <div className='cardThumb'>
                   <img src={project.img} alt="" />
