@@ -14,3 +14,36 @@
 .bagdes{
     width: 65%;
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .containerBtnLanguages{
+        top: 32%;
+        left: 78%;
+    }
+    .bagdes{
+        width: 50%;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .containerBtnLanguages{
+        top: 30%;
+        left: 94.5%;
+    }
+    .bagdes{
+        width: 60%;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .containerBtnLanguages{
+        top: 25%;
+        left: 85%;
+    }
+    .bagdes{
+        width: 50%;
+    }
+}
