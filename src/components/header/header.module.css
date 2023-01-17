@@ -12,11 +12,13 @@
     letter-spacing: 1px;
     font-size: 3.5rem;
     text-shadow: 2px 2px 5px whitesmoke, 0 0 0px whitesmoke, 2px 2px 5px whitesmoke;
+    color: var(--colorletra);
 }
 
 .descripcion {
     font-size: 3rem;
     text-shadow: 2px 2px 5px whitesmoke, 0 0 0px whitesmoke, 2px 2px 5px whitesmoke;
+    color: var(--colorletra);
 }
 
 

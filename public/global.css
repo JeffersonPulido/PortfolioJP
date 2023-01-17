@@ -2,6 +2,7 @@
 
 :root{
     --bkcolor: #535353;
+    --bkcolorlight: #bdadad;
     --bkcontraste: #232323;
     --coloraccesorios: #dc3545;;
     --colorletra: #ffffff;
@@ -12,11 +13,17 @@
     padding: 0;
     margin: 0;
     left: 0;
+    transition: .1s all;
 }
 
-body{
-    background-color: var(--bkcolor);
+.bgBodyLight{
+    background-color: var(--bkcolorlight);
+    color: var(--bkcontraste);
+}
+
+.bgBodyDark{
     color: var(--colorletra);
+    background-color: var(--bkcolor);
 }
 
 ::-webkit-scrollbar{

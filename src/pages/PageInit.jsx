@@ -8,19 +8,21 @@ import { Services } from '../components/services/Services'
 import { Testimonials } from '../components/testimonials/Testimonials'
 import { Contact } from '../components/contact/Contact'
 import { Footer } from '../components/footer/Footer'
+import { SwitchTheme } from '../components/switchTheme/SwitchTheme'
 
 export const PageInit = () => {
   return (
     <>
-        <Whatsapp />
-        <Header />
-        <Navbar />
-        <Info />
-        <Services />
-        <Projects />
-        <Testimonials />
-        <Contact />
-        <Footer />
+      <Whatsapp />
+      <Header />
+      <Navbar />
+      <Info />
+      <Services />
+      <Projects />
+      <Testimonials />
+      <Contact />
+      <Footer />
+      <SwitchTheme/>
     </>
   )
 }
