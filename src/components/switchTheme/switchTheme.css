@@ -60,7 +60,7 @@ input:checked+.slider:before {
 
 /* MOBILE */
 @media screen and (max-width: 767px) {
-    .switch{
+    .switch {
         top: 25%;
         left: 82%;
     }
@@ -68,15 +68,15 @@ input:checked+.slider:before {
 
 /* DESKTOP BIG*/
 @media (min-width: 1800px) {
-    .switch{
+    .switch {
         top: 20%;
         left: 95.5%;
     }
 }
 
 /* TABLET */
-@media screen and (min-width: 767px) and (max-width: 1023px){
-    .switch{
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .switch {
         top: 20%;
         left: 88.5%;
     }
