@@ -9,6 +9,7 @@ import { Testimonials } from '../components/testimonials/Testimonials'
 import { Contact } from '../components/contact/Contact'
 import { Footer } from '../components/footer/Footer'
 import { SwitchTheme } from '../components/switchTheme/SwitchTheme'
+import { LanguageSwitch } from '../components/languageSwitch/LanguageSwitch'
 
 export const PageInit = () => {
   return (
@@ -23,6 +24,7 @@ export const PageInit = () => {
       <Contact />
       <Footer />
       <SwitchTheme/>
+      <LanguageSwitch/>
     </>
   )
 }

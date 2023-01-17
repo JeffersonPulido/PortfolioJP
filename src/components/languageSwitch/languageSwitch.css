@@ -1,0 +1,16 @@
+.containerBtnLanguages{
+    display: inline-block;
+    position: fixed;
+    top: 35%;
+    left: 94.5%;
+    background-color: transparent;
+}
+
+.btnLanguage {
+    border: none;
+    background-color: transparent;
+}
+
+.bagdes{
+    width: 65%;
+}
