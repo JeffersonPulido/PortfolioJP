@@ -2,8 +2,11 @@ import React from 'react'
 import logoClose from '../../assets/icons/closeNavbar.svg'
 import logo from '../../assets/images/sello.webp'
 import './navbar.css'
+import { useTranslation } from 'react-i18next'
 
 export const Navbar = () => {
+  
+  const [t, i18n] = useTranslation("global");
 
   return (
     <>
@@ -25,22 +28,22 @@ export const Navbar = () => {
             <div className='offcanvas-body p-lg-0'>
               <ul className='navbar-nav'>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#home'>Home</a>
+                  <a className='nav-link active' aria-current='page' href='#home'>{t("navbar.home")}</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#about'>About</a>
+                  <a className='nav-link active' aria-current='page' href='#about'>{t("navbar.about")}</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#services'>Services</a>
+                  <a className='nav-link active' aria-current='page' href='#services'>{t("navbar.services")}</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#projects'>Projects</a>
+                  <a className='nav-link active' aria-current='page' href='#projects'>{t("navbar.projects")}</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#testimonials'>Testimonials</a>
+                  <a className='nav-link active' aria-current='page' href='#testimonials'>{t("navbar.testimonials")}</a>
                 </li>
                 <li className='nav-item'>
-                  <a className='nav-link active' aria-current='page' href='#contact'>Contact</a>
+                  <a className='nav-link active' aria-current='page' href='#contact'>{t("navbar.contact")}</a>
                 </li>
               </ul>
             </div>

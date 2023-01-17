@@ -1,6 +1,18 @@
 {
+    "header": {
+        "title": "Hi, I'm Jefferson Pulido",
+        "description": "Developer Web FrontEnd"
+    },
     "principalInfo": {
         "title": "Who I am?",
         "description": "I am a Full Stack Junior Web Developer with basic knowledge in OOP, BDO, PHP, Python, JavaScript and I am currently learning ReactJs, as well as other technologies to always stay at the forefront with the most demanded languages. I characterize myself as being responsible and autonomous, self-taught and leader, I like to learn from different areas and look for the best solutions to the problem posed."
+    },
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "testimonials": "Testimonials",
+        "contact": "Contact"
     }
 }
