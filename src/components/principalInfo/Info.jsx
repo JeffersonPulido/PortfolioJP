@@ -1,8 +1,12 @@
 import React from 'react'
 import avatarCerca from '../../assets/images/avatarCerca.png'
 import './info.css'
+import { useTranslation } from 'react-i18next'
 
 export const Info = () => {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     <>
       <div className='containerInfo' id='about'>
@@ -10,10 +14,8 @@ export const Info = () => {
           <img src={avatarCerca} alt="Avatar" className='avatarIMG'/>
         </div>
         <div className='boxRight'>
-          <h1 className='titleInfo'>¿Quien soy?</h1>
-          <p className='descriptionInfo'>
-          Soy Desarrollador Web Full Stack Junior con conocimientos básicos en POO, BDO, PHP, Python, JavaScript y actualmente estoy aprendiendo <strong>ReactJs</strong>, ademas de otras tecnologías para mantenerme siempre en la vanguardia con los lenguajes mas demandados. Me caracterizo por ser responsable y autónomo, autodidacta y líder, me gusta aprender de diferentes áreas y buscar las mejores soluciones al problema planteado.
-          </p>
+          <h1 className='titleInfo'>{t("principalInfo.title")}</h1>
+          <p className='descriptionInfo'>{t("principalInfo.description")}</p>
         </div>
       </div>
     </>
