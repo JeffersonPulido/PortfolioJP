@@ -57,3 +57,27 @@ input:checked+.slider:before {
     box-shadow: inset -3px -2px 5px -2px #8983f700, inset -10px -4px 0 0 #a3d9fb00;
     /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px) {
+    .switch{
+        top: 25%;
+        left: 82%;
+    }
+}
+
+/* DESKTOP BIG*/
+@media (min-width: 1800px) {
+    .switch{
+        top: 20%;
+        left: 95.5%;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .switch{
+        top: 20%;
+        left: 88.5%;
+    }
+}
