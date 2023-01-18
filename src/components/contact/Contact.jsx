@@ -2,8 +2,11 @@ import React from 'react'
 import Swal from 'sweetalert2'
 import waves from '../../assets/images/waves.svg'
 import './contact.css'
+import { useTranslation } from 'react-i18next'
 
 export const Contact = () => {
+
+  const [t, i18n] = useTranslation("global");
 
   const logMail = () => {
     const checkPolitica = document.getElementById("check").checked;
@@ -40,7 +43,7 @@ export const Contact = () => {
       <img src={waves} alt="Waves" className='waves' />
       <div className='containerContact' id='contact'>
         <div className='containerTitleContact'>
-          <h1>CONTACT</h1>
+          <h1>{t("titles.contact")}</h1>
         </div>
         <div className='containerForm'>
           <section className="contact-sec sec-pad">

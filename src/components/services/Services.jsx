@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import { Data } from '../../data/services'
 import './Services.css'
+import { useTranslation } from 'react-i18next'
 
 export const Services = () => {
+
+    const [t, i18n] = useTranslation("global");
 
     const [service, setService] = useState(Data)
 
@@ -10,7 +13,7 @@ export const Services = () => {
         <>
             <div className='containerServices' id='services'>
                 <div className='containerTitleServices'>
-                    <h1>Services</h1>
+                    <h1>{t("titles.services")}</h1>
                 </div>
                 <section>
                     {

@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import { Data } from '../../data/projects'
 import './Projects.css'
+import { useTranslation } from 'react-i18next'
 
 export const Projects = () => {
+
+  const [t, i18n] = useTranslation("global");
+
   //State con DATA Original
   const [projects, setProjects] = useState(Data)
   //State con DATA Filtrada
@@ -39,11 +43,11 @@ export const Projects = () => {
     <>
       <div className='containerProject' id='projects'>
         <div className='containerTitleProject'>
-          <h1>PROJECTS</h1>
+          <h1>{t("titles.projects")}</h1>
         </div>
         <div className='containerButtons'>
           <div className='btnDev'>
-            <p className='titleBtnFilter'>Tipo Desarrollo</p>
+            <p className='titleBtnFilter'>{t("titles.typeprojects")}</p>
             {
               menuTypeDev.map((btnTypeDev) => (
                 <button key={btnTypeDev + "typeProjectFilter"} className='btnFilter' onClick={() => filterTypeProject(btnTypeDev)}>{btnTypeDev}</button>
@@ -51,7 +55,7 @@ export const Projects = () => {
             }
           </div>
           <div className='btnTech'>
-            <p className='titleBtnFilter'>Tecnologias</p>
+            <p className='titleBtnFilter'>{t("titles.typetech")}</p>
             {
               menuTypeTech.map((btnTypeTech) => (
                 <button key={btnTypeTech + "typeTechFilter"} className='btnFilter' onClick={() => filterTechs(btnTypeTech)}>{btnTypeTech}</button>

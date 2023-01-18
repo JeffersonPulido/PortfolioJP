@@ -14,5 +14,21 @@
         "projects": "Projects",
         "testimonials": "Testimonials",
         "contact": "Contact"
+    },
+    "testimonials": {
+        "titleYeison": "Developer Sr",
+        "cardYeison": "I know your work and I know that you handle clean and indexed code, have a good problem solving perspective and incredible logic, in addition to using good practices.",
+        "titleCristian": "Architect",
+        "cardCristian": "He is an autonomous and proactive person, he solves problems and improves the effectiveness of processes to increase the quality of a composite system.",
+        "titleFernando": "SENA teacher",
+        "cardFernando": "He is a responsible and autonomous person, apt to face the highest challenges and find the best solution, he is also willing to learn and be taught."
+    },
+    "titles": {
+        "services": "SERVICES",
+        "projects": "PROJECTS",
+        "testimonials": "TESTIMONIALS",
+        "contact": "CONTACT",
+        "typeprojects": "Project Type",
+        "typetech": "Technology Type"
     }
 }
