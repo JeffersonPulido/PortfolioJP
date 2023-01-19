@@ -174,5 +174,16 @@ export const Data = [
     img: "https://i.ibb.co/T0RzG6S/Caratula16.webp",
     github: "https://github.com/programateacademy/Legacy-Red-social-Progr-mate",
     deploy: "https://coderyapp.netlify.app/"
+  },
+  {
+    id: "17",
+    title: "To Do List App",
+    description: "Aplicativo web que permite organizar tu dia en una serie de tareas..",
+    tags: ["HTML5", "CSS3", "ReactJS", "Responsive", , "VSCode"],
+    type: "ReactJS",
+    typeProject: "FrontEnd",
+    img: "https://i.ibb.co/cktxJqF/Caratula17.webp",
+    github: "https://github.com/JeffersonPulido/todolist-app",
+    deploy: "https://todolistappjp.netlify.app"
   }
 ]
