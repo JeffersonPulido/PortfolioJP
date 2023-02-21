@@ -178,12 +178,23 @@ export const Data = [
   {
     id: "17",
     title: "To Do List App",
-    description: "Aplicativo web que permite organizar tu dia en una serie de tareas..",
+    description: "Aplicativo web que permite organizar tu dia en una serie de tareas.",
     tags: ["HTML5", "CSS3", "ReactJS", "Responsive", , "VSCode"],
     type: "ReactJS",
     typeProject: "FrontEnd",
     img: "https://i.ibb.co/cktxJqF/Caratula17.webp",
     github: "https://github.com/JeffersonPulido/todolist-app",
     deploy: "https://todolistappjp.netlify.app"
+  },
+  {
+    id: "18",
+    title: "Event Planners",
+    description: "Página web para el emprendimiento Event Planners, dedicado a la organización de eventos.",
+    tags: ["HTML5", "CSS3", "ReactJS", "Responsive", , "VSCode"],
+    type: "ReactJS",
+    typeProject: "FrontEnd",
+    img: "https://i.ibb.co/frqKqWM/Caratula18.webp",
+    github: "https://github.com/JeffersonPulido/eventplannerscol",
+    deploy: "https://eventplannerscol.netlify.app"
   }
 ]
