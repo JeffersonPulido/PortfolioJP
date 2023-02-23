@@ -14,7 +14,7 @@ export const Testimonials = () => {
                 </div>
                 <div className='containerBodyTestimonials'>
                     <div className="quotes page-width">
-                        <div className="quotes-slide slideshow__slide--active" data-slider-slide-index="0" aria-hidden="false" tabIndex="-1">
+                        <div data-aos="flip-down" className="quotes-slide slideshow__slide--active" data-slider-slide-index="0" aria-hidden="false" tabIndex="-1">
                             <blockquote className="quotes-slider__text text-left">
                                 <span className="quote-icon">
                                     <svg aria-hidden="true" focusable="false" role="presentation" className="icon icon-quote" viewBox="0 0 41 35">
@@ -28,7 +28,7 @@ export const Testimonials = () => {
                                 <cite>Yeison Marquez - {t("testimonials.titleYeison")}</cite>
                             </blockquote>
                         </div>
-                        <div className="quotes-slide slideshow__slide--active" data-slider-slide-index="1" aria-hidden="false" tabIndex="-1">
+                        <div data-aos="flip-down" className="quotes-slide slideshow__slide--active" data-slider-slide-index="1" aria-hidden="false" tabIndex="-1">
                             <blockquote className="quotes-slider__text text-left">
                                 <span className="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation"
                                     className="icon icon-quote" viewBox="0 0 41 35">
@@ -43,7 +43,7 @@ export const Testimonials = () => {
                                 <cite>Cristian Sanchez - {t("testimonials.titleCristian")}</cite>
                             </blockquote>
                         </div>
-                        <div className="quotes-slide slideshow__slide--active" data-slider-slide-index="2" aria-hidden="false" tabIndex="-1">
+                        <div data-aos="flip-down" className="quotes-slide slideshow__slide--active" data-slider-slide-index="2" aria-hidden="false" tabIndex="-1">
                             <blockquote className="quotes-slider__text text-left">
                                 <span className="quote-icon"><svg aria-hidden="true" focusable="false" role="presentation"
                                     className="icon icon-quote" viewBox="0 0 41 35">

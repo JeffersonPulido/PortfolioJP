@@ -18,7 +18,7 @@ export const Services = () => {
                 <section>
                     {
                         service.map((serv) => (
-                            <div className="cardServ" key={serv.id}>
+                            <div data-aos="flip-up" className="cardServ" key={serv.id}>
                                 <div className="card">
                                     <div className="icon-wrapper">
                                         <i className={serv.icon}></i>

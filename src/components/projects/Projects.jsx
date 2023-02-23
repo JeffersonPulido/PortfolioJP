@@ -46,7 +46,7 @@ export const Projects = () => {
           <h1>{t("titles.projects")}</h1>
         </div>
         <div className='containerButtons'>
-          <div className='btnDev'>
+          <div data-aos="fade-up" className='btnDev'>
             <p className='titleBtnFilter'>{t("titles.typeprojects")}</p>
             {
               menuTypeDev.map((btnTypeDev) => (
@@ -54,7 +54,7 @@ export const Projects = () => {
               ))
             }
           </div>
-          <div className='btnTech'>
+          <div data-aos="fade-down" className='btnTech'>
             <p className='titleBtnFilter'>{t("titles.typetech")}</p>
             {
               menuTypeTech.map((btnTypeTech) => (
@@ -66,7 +66,7 @@ export const Projects = () => {
         <div className='containerInfoProject'>
           {
             dataFilter.map((project) => (
-              <div className='containerCard' key={project.id}>
+              <div data-aos="zoom-in" className='containerCard' key={project.id}>
                 <div className='cardHead'>
                   <p key={project.type + "TYPE"}>{project.typeProject}&nbsp;-&nbsp;{project.type}</p>
                 </div>

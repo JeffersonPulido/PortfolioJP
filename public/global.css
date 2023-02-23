@@ -2,7 +2,7 @@
 
 :root{
     --bkcolor: #535353;
-    --bkcolorlight: #bdadad;
+    --bkcolorlight: #e7e7e7;
     --bkcontraste: #232323;
     --coloraccesorios: #dc3545;;
     --colorletra: #ffffff;
@@ -28,6 +28,7 @@
 
 ::-webkit-scrollbar{
 	width: 5px;
+    height: 0;
 }
 
 ::-webkit-scrollbar-track{

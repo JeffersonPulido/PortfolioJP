@@ -58,9 +58,9 @@ export const Contact = () => {
                     </ul>
 
                     <span>
-                      <a target='_blank' href="https://wa.me/573102156205?text=¡Hola%20Jefferson!%20Me%20gustaría%20contactarte%20y%20amplia%20más%20información%20acerca%20de%20tu%20portafolio,%20espero%20tu%20respuesta,%20¡gracias!" className="whatsapp"><i className="fa-brands fa-whatsapp"></i></a>
-                      <a target='_blank' href="https://github.com/JeffersonPulido" className="git"><i className="fa-brands fa-github"></i></a>
-                      <a target='_blank' href="https://www.linkedin.com/in/jeffersonpulido/" className="linkedin"><i className="fa-brands fa-linkedin"></i></a>
+                      <a data-aos="zoom-left" data-aos-delay="300" target='_blank' href="https://wa.me/573102156205?text=¡Hola%20Jefferson!%20Me%20gustaría%20contactarte%20y%20amplia%20más%20información%20acerca%20de%20tu%20portafolio,%20espero%20tu%20respuesta,%20¡gracias!" className="whatsapp"><i className="fa-brands fa-whatsapp"></i></a>
+                      <a data-aos="zoom-in" data-aos-delay="600" target='_blank' href="https://github.com/JeffersonPulido" className="git"><i className="fa-brands fa-github"></i></a>
+                      <a data-aos="zoom-right" data-aos-delay="900" target='_blank' href="https://www.linkedin.com/in/jeffersonpulido/" className="linkedin"><i className="fa-brands fa-linkedin"></i></a>
                     </span>
                   </div>
                 </div>
