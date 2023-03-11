@@ -196,5 +196,27 @@ export const Data = [
     img: "https://i.ibb.co/frqKqWM/Caratula18.webp",
     github: "https://github.com/JeffersonPulido/eventplannerscol",
     deploy: "https://eventplannerscol.netlify.app"
+  },
+  {
+    id: "19",
+    title: "Heippi Api",
+    description: "APIRest realizada para prueba tecnica de la compañia Heippi.",
+    tags: ["NodeJS", "MongoDB", "Express", "Postman"],
+    type: "NodeJS",
+    typeProject: "BackEnd",
+    img: "https://i.ibb.co/s1kh2NM/Caratula19.webp",
+    github: "https://github.com/JeffersonPulido/HeippiAPI.git",
+    deploy: "#"
+  },
+  {
+    id: "20",
+    title: "Event Planners",
+    description: "Pagina web para empresa dedicada a realizar afiliaciones a seguridad social y otros.",
+    tags: ["HTML5", "CSS3", "ReactJS", "Responsive", , "VSCode"],
+    type: "ReactJS",
+    typeProject: "FrontEnd",
+    img: "https://i.ibb.co/Mf6ryPz/Caratula20.webp",
+    github: "https://github.com/JeffersonPulido/A-R-SAS-WEBPAGE.git",
+    deploy: "https://alejandrasoluciones.netlify.app"
   }
 ]
