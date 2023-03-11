@@ -210,7 +210,7 @@ export const Data = [
   },
   {
     id: "20",
-    title: "Event Planners",
+    title: "AR-SAS",
     description: "Pagina web para empresa dedicada a realizar afiliaciones a seguridad social y otros.",
     tags: ["HTML5", "CSS3", "ReactJS", "Responsive", , "VSCode"],
     type: "ReactJS",
