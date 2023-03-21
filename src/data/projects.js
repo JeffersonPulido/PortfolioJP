@@ -218,5 +218,16 @@ export const Data = [
     img: "https://i.ibb.co/Mf6ryPz/Caratula20.webp",
     github: "https://github.com/JeffersonPulido/A-R-SAS-WEBPAGE.git",
     deploy: "https://alejandrasoluciones.netlify.app"
+  },
+  {
+    id: "21",
+    title: "Weather Search API",
+    description: "Buscador de clima en practica de consumo a una API publica para obtener los datos.",
+    tags: ["HTML5", "CSS3", "JavaScript", "API", "VSCode", "Responsive"],
+    type: "JavaScript",
+    typeProject: "FrontEnd",
+    img: "https://i.ibb.co/g7GN6Vc/Caratula21.webp",
+    github: "https://github.com/JeffersonPulido/WeatherApp",
+    deploy: "https://searchtiempo.netlify.app/"
   }
 ]
