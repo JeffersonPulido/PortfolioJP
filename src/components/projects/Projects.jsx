@@ -87,8 +87,8 @@ export const Projects = () => {
                   </ul>
                 </div>
                 <div className='cardBtn'>
-                  <a href={project.deploy} className={project.deploy == "#" ? "disabled" : "btnDeploy"}><i className='fa-solid fa-globe'></i>{project.deploy == "#" ? "Local" : "Web"}</a>
-                  <a href={project.github} className='btnGithub'><i className="fa-brands fa-github"></i> Source</a>
+                  <a target="_blank" href={project.deploy} className={project.deploy == "#" ? "disabled" : "btnDeploy"}><i className='fa-solid fa-globe'></i>{project.deploy == "#" ? "Local" : "Web"}</a>
+                  <a target="_blank" href={project.github} className='btnGithub'><i className="fa-brands fa-github"></i> Source</a>
                 </div>
               </div>
             )

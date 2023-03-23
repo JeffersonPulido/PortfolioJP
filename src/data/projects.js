@@ -199,14 +199,14 @@ export const Data = [
   },
   {
     id: "19",
-    title: "Heippi Api",
-    description: "APIRest realizada para prueba tecnica de la compañia Heippi.",
-    tags: ["NodeJS", "MongoDB", "Express", "Postman"],
-    type: "NodeJS",
-    typeProject: "BackEnd",
-    img: "https://i.ibb.co/s1kh2NM/Caratula19.webp",
-    github: "https://github.com/JeffersonPulido/HeippiAPI.git",
-    deploy: "#"
+    title: "Heroes API Prográmate",
+    description: "Consumos de API para prueba tecnica de EducaMAS.",
+    tags: ["ReactJS", "API", "CSS3", "Responsive"],
+    type: "ReactJS",
+    typeProject: "FrontEnd",
+    img: "https://i.ibb.co/Ks8NN59/Caratula19.webp",
+    github: "https://github.com/JeffersonPulido/superherosearchapi",
+    deploy: "https://searchheroesapi.netlify.app"
   },
   {
     id: "20",
