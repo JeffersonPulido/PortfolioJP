@@ -10,6 +10,7 @@ import { Contact } from "../components/contact/Contact";
 import { Footer } from "../components/footer/Footer";
 import { SwitchTheme } from "../components/switchTheme/SwitchTheme";
 import { LanguageSwitch } from "../components/languageSwitch/LanguageSwitch";
+import { UpArrow } from "../components/upArrow/UpArrow";
 
 export const PageInit = () => {
   //Evento para inhabilitar clic derecho
@@ -56,6 +57,7 @@ export const PageInit = () => {
       <Footer />
       <SwitchTheme />
       <LanguageSwitch />
+      <UpArrow/>
     </>
   );
 };
