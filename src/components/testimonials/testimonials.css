@@ -33,21 +33,13 @@
     width: 33%;
     padding: 3rem;
     background-color: #eaeaea;
-    cursor: pointer;
-    box-shadow: 1px 0px 10px 5px #232323;
+    cursor: default;
+    box-shadow: 1px 0px 10px 5px #ffffff;
     line-height: 1.75;
-    transition: all .5s ease;
     outline: none;
-    border: 2px solid var(--coloraccesorios);
-    transition: .5s ease-in-out;
+    border-radius: 5px;
 }
 
-.quotes-slide:hover {
-    background-color: #f5f5f5;
-    box-shadow: 1px 0px 10px 5px #ffffff;
-    border: 2px solid white;
-    cursor: default;
-}
 
 blockquote {
     margin: 0;

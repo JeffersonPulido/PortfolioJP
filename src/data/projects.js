@@ -5,7 +5,7 @@ export const Data = [
     description: "Sistema de control de productos, sedes, proveedores y ventas para supermercado desarrollado en la MisionTIC & U. El Bosque",
     tags: ["HTML5", "CSS3", "JAVA", "MySQL", "Eclipse", "Responsive"],
     type: "JAVA",
-    typeProject: "FrontEnd",
+    typeProject: "FullStack",
     img: "https://i.ibb.co/Lr42mxs/Caratula1.webp",
     github: "https://github.com/JeffersonPulido/TiendaGenericaJAVA",
     deploy: "#"
