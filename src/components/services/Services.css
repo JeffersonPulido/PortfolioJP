@@ -12,6 +12,16 @@
     text-transform: uppercase;
 }
 
+.containerTitleServices>h1::after{
+    margin: 2px auto 0 auto;
+    position: relative;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: var(--coloraccesorios);
+}
+
 section {
     width: 100%;
     display: grid;

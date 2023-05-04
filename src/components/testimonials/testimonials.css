@@ -9,6 +9,16 @@
     text-shadow: 2px 2px 3px rgb(197, 197, 197), 0 0 0px rgb(197, 197, 197), 2px 2px 3px rgb(197, 197, 197);
 }
 
+.containerTitleTestimonials>h1::after{
+    margin: 2px auto 0 auto;
+    position: relative;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: var(--coloraccesorios);
+}
+
 .page-width {
     max-width: 1200px;
     margin: auto;
@@ -34,10 +44,16 @@
     padding: 3rem;
     background-color: #eaeaea;
     cursor: default;
-    box-shadow: 1px 0px 10px 5px #ffffff;
     line-height: 1.75;
     outline: none;
     border-radius: 5px;
+    border: 2px solid var(--coloraccesorios);
+    box-shadow: 1px 0px 10px 5px var(--bkcontraste);
+    transition: .2s ease-in-out;
+}
+
+.quotes-slide:hover{
+    box-shadow: 1px 0px 10px 5px #ffffff;
 }
 
 

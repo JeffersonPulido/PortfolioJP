@@ -20,6 +20,16 @@
     margin-bottom: 50px;
 }
 
+.titleInfo::after{
+    margin: 2px auto 0 auto;
+    position: relative;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: var(--coloraccesorios);
+}
+
 .descriptionInfo {
     font-size: 3.5vh;
 }

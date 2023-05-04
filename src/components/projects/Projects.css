@@ -31,6 +31,16 @@
     padding-bottom: 5vh;
 }
 
+.containerTitleProject>h1::after{
+    margin: 2px auto 0 auto;
+    position: relative;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 150px;
+    background: var(--coloraccesorios);
+}
+
 .containerInfoProject {
     display: grid;
     grid-template-columns: repeat(4, 22%);
