@@ -5,6 +5,7 @@
 }
 
 .containerTitleContact>h1 {
+    color: var(--colorletra);
     text-align: center;
     font-weight: 600;
     letter-spacing: 5px;
@@ -134,6 +135,7 @@ form.contFrm {
 .datosPersonales{
     text-align: justify;
     font-weight: 700;
+    color: var(--colorletra);
 }
 
 .contFrm textarea {

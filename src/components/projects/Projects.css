@@ -79,6 +79,7 @@
 }
 
 .cardHead>p {
+    color: var(--colorletra);
     padding: 0;
     margin: 0;
 }
