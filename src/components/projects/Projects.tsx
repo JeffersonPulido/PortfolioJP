@@ -9,11 +9,14 @@ export const Projects: FC = (): ReactElement => {
 
     //State con DATA Original
     const [projects, setProjects] = useState(Data);
+
     //State con DATA Filtrada
     const [dataFilter, setDataFilter] = useState(projects);
+
     //Quitar repetidos de tipos de proyecto y tecnologias, metiendo el resultado en arrays nuevos
     const menuTypeDev = ['Todos', ...new Set(projects.map(Val => Val.typeProject))];
     const menuTypeTech = ['Todos', ...new Set(projects.map(Val => Val.type))];
+
     //Funcion de filtrar tipos de proyectos
     const filterTypeProject = (categoryProject: string): void => {
         const newItem = Data.filter(newVal => {
@@ -26,6 +29,7 @@ export const Projects: FC = (): ReactElement => {
             setDataFilter(newItem);
         }
     };
+
     //Funcion de filtrar tecnologias
     const filterTechs = (techProject: string): void => {
         const newItem = Data.filter(newVal => {
