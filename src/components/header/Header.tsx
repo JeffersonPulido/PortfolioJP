@@ -3,8 +3,7 @@ import style from './header.module.css';
 import { useTranslation } from 'react-i18next';
 
 export const Header: FC = (): ReactElement => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [t, i18n] = useTranslation('global');
+    const { t } = useTranslation('global');
 
     return (
         <>

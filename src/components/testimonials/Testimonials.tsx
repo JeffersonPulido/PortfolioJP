@@ -3,8 +3,7 @@ import './testimonials.css';
 import { useTranslation } from 'react-i18next';
 
 export const Testimonials: FC = (): ReactElement => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [t, i18n] = useTranslation('global');
+    const { t } = useTranslation('global');
 
     return (
         <>

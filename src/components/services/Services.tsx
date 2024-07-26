@@ -1,13 +1,12 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 import { FC, ReactElement, useState } from 'react';
-import { Data } from '../../data/services';
+import { Data } from '@data/services';
 import './Services.css';
 import { useTranslation } from 'react-i18next';
 
 export const Services: FC = (): ReactElement => {
-    const [t, i18n] = useTranslation('global');
+    const { t } = useTranslation('global');
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [service, setService] = useState(Data);
 
     return (

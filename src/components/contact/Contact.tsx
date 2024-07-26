@@ -1,12 +1,11 @@
 import { FC, ReactElement } from 'react';
 import Swal from 'sweetalert2';
-import waves from '../../assets/images/waves.svg';
+import waves from '@assets/images/waves.svg';
 import './contact.css';
 import { useTranslation } from 'react-i18next';
 
 export const Contact: FC = (): ReactElement => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [t, i18n] = useTranslation('global');
+    const { t } = useTranslation('global');
 
     const logMail = (): void => {
         const checkPolitica = (document.getElementById('check') as HTMLInputElement)!.checked;

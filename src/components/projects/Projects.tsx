@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { FC, ReactElement, useState } from 'react';
-import { Data } from '../../data/projects';
+import { Data } from '@data/projects';
 import './Projects.css';
 import { useTranslation } from 'react-i18next';
 
 export const Projects: FC = (): ReactElement => {
-    const [t, i18n] = useTranslation('global');
+    const { t } = useTranslation('global');
 
     //State con DATA Original
     const [projects, setProjects] = useState(Data);
