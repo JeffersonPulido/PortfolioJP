@@ -8,7 +8,7 @@ export const Projects: FC = (): ReactElement => {
     const { t } = useTranslation('global');
 
     //State con DATA Original
-    const [projects, setProjects] = useState(Data);
+    const [projects] = useState(Data);
 
     //State con DATA Filtrada
     const [dataFilter, setDataFilter] = useState(projects);

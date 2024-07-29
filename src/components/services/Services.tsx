@@ -7,7 +7,7 @@ export const Services: FC = (): ReactElement => {
     const { t } = useTranslation('global');
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const [service, setService] = useState(Data);
+    const [service] = useState(Data);
 
     return (
         <>

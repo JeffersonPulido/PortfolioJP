@@ -7,7 +7,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     border: 1px solid var(--coloraccesorios);
-    transition: .3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -23,19 +23,22 @@
     padding-bottom: 5%;
 }
 
-.containerTitleProject>h1 {
+.containerTitleProject > h1 {
     text-align: center;
     font-weight: 600;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 3px rgb(197, 197, 197), 0 0 0px rgb(197, 197, 197), 2px 2px 3px rgb(197, 197, 197);
+    text-shadow:
+        2px 2px 3px rgb(197, 197, 197),
+        0 0 0px rgb(197, 197, 197),
+        2px 2px 3px rgb(197, 197, 197);
     padding-bottom: 5vh;
 }
 
-.containerTitleProject>h1::after{
+.containerTitleProject > h1::after {
     margin: 2px auto 0 auto;
     position: relative;
     display: block;
-    content: "";
+    content: '';
     height: 3px;
     width: 150px;
     background: var(--coloraccesorios);
@@ -52,7 +55,9 @@
 .containerCard {
     background-color: whitesmoke;
     border: 2px solid var(--coloraccesorios);
-    box-shadow: 0 0 0px #000000, 10px 10px 5px #1e1e1e;
+    box-shadow:
+        0 0 0px #000000,
+        10px 10px 5px #1e1e1e;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -63,8 +68,9 @@
 }
 
 .containerCard:hover {
-
-    box-shadow: 12px 8px 20px #000000, 2px 2px 9px 1px #1e1e1e;
+    box-shadow:
+        12px 8px 20px #000000,
+        2px 2px 9px 1px #1e1e1e;
 }
 
 .cardHead {
@@ -78,7 +84,7 @@
     border-radius: 5px 5px 0px 0px;
 }
 
-.cardHead>p {
+.cardHead > p {
     color: var(--colorletra);
     padding: 0;
     margin: 0;
@@ -104,22 +110,25 @@
     padding: 5% 0% 0% 0%;
 }
 
-.cardTitle>h1 {
+.cardTitle > h1 {
     font-size: 4vh;
     margin: 0;
     font-weight: 500;
 }
 
-.cardDesc {}
+.cardDesc {
+    height: 8rem;
+}
 
-.cardDesc>p {
+.cardDesc > p {
     margin: 0;
     padding: 5% 0% 5% 0%;
     text-align: center;
 }
 
-.cardThumb>img {
+.cardThumb > img {
     width: 100%;
+    height: 164px;
     /* border-radius: 10px 10px 0px 0px; */
     border-bottom: 2px solid var(--coloraccesorios);
 }
@@ -129,7 +138,7 @@
     color: var(--colorletra);
 }
 
-.cardTech>ul {
+.cardTech > ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 33%);
@@ -139,7 +148,7 @@
     justify-content: center;
 }
 
-.cardTech>ul>li {
+.cardTech > ul > li {
     text-align: center;
     background-color: var(--coloraccesorios);
     border-radius: 3px;
@@ -166,7 +175,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     border: 1px solid var(--coloraccesorios);
-    transition: .3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -190,7 +199,7 @@
     font-weight: 500;
     letter-spacing: 2px;
     border: 1px solid var(--coloraccesorios);
-    transition: .3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -234,14 +243,16 @@
     color: white;
     font-weight: 600;
     letter-spacing: 0.6px;
-    transition: .3s ease-in-out;
-    box-shadow: 0px 0px 4px #000000, 0px 0px 20px 2px #1e1e1e;
+    transition: 0.3s ease-in-out;
+    box-shadow:
+        0px 0px 4px #000000,
+        0px 0px 20px 2px #1e1e1e;
     margin: 5px;
 }
 
 .btnFilter:hover {
     background: #a3212d;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 /* MOBILE */
@@ -261,15 +272,15 @@
         max-height: none;
     }
 
-    .cardTitle>h1 {
+    .cardTitle > h1 {
         font-size: 30px;
     }
 
-    .cardDesc>p {
+    .cardDesc > p {
         font-size: 20px;
     }
 
-    .cardTech>ul>li {
+    .cardTech > ul > li {
         font-size: 18px;
     }
 
@@ -284,7 +295,9 @@
     }
 
     .btnFilter {
-        box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
+        box-shadow:
+            0px 5px 15px #000000,
+            1px 1px 0 2px #1e1e1e;
         margin: 1%;
     }
 }
@@ -300,7 +313,7 @@
         padding-right: 5%;
     }
 
-    .cardTitle>h1 {
+    .cardTitle > h1 {
         font-size: 3vh;
     }
 }
@@ -311,7 +324,7 @@
         grid-template-columns: repeat(2, 40%);
     }
 
-    .containerTitleProject>h1 {
+    .containerTitleProject > h1 {
         padding-bottom: 4vh;
         padding-top: 4vh;
     }
@@ -320,7 +333,7 @@
         grid-template-columns: none;
     }
 
-    .cardTitle>h1 {
+    .cardTitle > h1 {
         font-size: 2.5vh;
     }
 
@@ -330,7 +343,9 @@
     }
 
     .btnFilter {
-        box-shadow: 0px 5px 15px #000000, 1px 1px 0 2px #1e1e1e;
+        box-shadow:
+            0px 5px 15px #000000,
+            1px 1px 0 2px #1e1e1e;
         margin: 1%;
     }
 }
