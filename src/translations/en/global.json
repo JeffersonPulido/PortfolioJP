@@ -1,11 +1,11 @@
 {
     "header": {
         "title": "Hi, I'm Jefferson Pulido",
-        "description": "Web Developer Jr"
+        "description": "Web Developer"
     },
     "principalInfo": {
         "title": "Who I am?",
-        "description": "I am a Junior Full Stack Web Developer, knowledgeable in technologies such as PHP, Python, databases, NodeJS, JavaScript, and ReactJs, and always up to date with the most demanded languages. I am responsible, autonomous, self-taught, and a leader, which allows me to seek the best solutions to any problem. I love learning from different areas, and I am confident that I can contribute to the success of your company. Let's work together to make our dreams come true!"
+        "description": "I am a Full Stack Web Developer with knowledge in OOP, Databases, TypeScript, TailwindCSS, NextJs and ReactJs, in addition to other technologies, to always stay at the forefront with the most in-demand languages. I am responsible, autonomous, self-taught and a leader, which allows me to seek the best solutions to any problem. I love learning from different areas and I am sure I can contribute to the success of your company. Let's work together to make our dreams come true!"
     },
     "navbar": {
         "home": "Home",
