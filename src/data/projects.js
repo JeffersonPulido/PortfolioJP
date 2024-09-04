@@ -254,7 +254,7 @@ export const Data = [
         tags: ['NextJS', 'MongoDB', 'Typescript', 'TailwindCSS', 'VSCode', 'Responsive'],
         type: 'NextJS',
         typeProject: 'FullStack',
-        img: 'https://i.ibb.co/2dHKGSZ/Caratula23.webp',
+        img: 'https://i.ibb.co/RyrzLJ0/Caratula23.webp',
         github: 'https://github.com/JeffersonPulido/ECommerce',
         deploy: 'https://bestmarkid.vercel.app/',
     },
